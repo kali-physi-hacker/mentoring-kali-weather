@@ -1,0 +1,10 @@
+- Important Features should be implemented first
+  Feature
+    - Weather (Home.jsx)
+
+
+- Routing
+  - install react-router-dom ==> npm install react-router-dom
+  - Configure your app to use react-router-dom
+
+  1. index.js (BrowserRouter)

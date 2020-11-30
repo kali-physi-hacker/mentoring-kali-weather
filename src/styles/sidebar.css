@@ -1,0 +1,59 @@
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 365px;
+    top: 0;
+    left: 0;
+    background-color: var(--dark-blue);
+    box-shadow: var(--shadow);
+    z-index: 99;
+    transform: translateX(-80%);
+    transition: transform 0.2s cubic-bezier(.57,.21,.69,1.25);
+    /*border-right: 5px solid white;*/
+}
+
+.sidebar-opened {
+    transform: translateX(0%);
+}
+
+.sidebar-toggler {
+    position: absolute;
+    right: 10px;
+    color: white;
+    padding: 15px;
+    /*border-radius: 50%;*/
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.sidebar-toggler:hover {
+    background-color: var(--light-brown);
+}
+
+/* Profile */
+.profile-info {
+    width: 100%;
+    /*height: 500px;*/
+    /*border: 1px solid #000;*/
+    margin-top: 98px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.profile-info .name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.profile-info .email {
+    font-size: 14px;
+}
+
+.profileImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,36 @@
+.currentWeatherInfo {
+    padding: 72px 0 24px;
+    display: flex;
+}
+
+.temp {
+    font-size: 96px;
+    font-weight: 200;
+    margin-right: 50px;
+}
+
+.weekWeatherInfo {
+    display: flex;
+    margin-top: 72px;
+    /*border: 1px solid #ddd;*/
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-info:hover {
+    box-shadow: 2px 0px 45px -1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.weather-info p, .weather-info h5 {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.description {
+    font-weight: 200;
+}

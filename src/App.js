@@ -8,6 +8,7 @@ import React, {useState} from 'react';
 import Sidebar from "./components/Sidebar";
 
 import "./styles/variables.css"
+import SearchWeather from './pages/SearchWeather';
 
 
 export const AppContext = React.createContext()
@@ -22,6 +23,7 @@ function App() {
                 <Sidebar/>
                 <Switch>
                     <Route path={"/"} exact={true} component={Home}/>
+                    <Route path={"/search"} exact={true} component={SearchWeather} />
                     <Route path={"/login"} exact={true} component={Login}/>
                     <Route path={"/signup"} exact={true} component={Signup}/>
                 </Switch>
